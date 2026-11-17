@@ -112,7 +112,7 @@ export const wedding = {
     addressLine2: "Mau (U.P.)",
     // What to search on Google Maps to find the venue.
     // Tip: copy the exact venue name and city from Google Maps.
-    mapSearch: "Sarva Utsav Lawn, Mohamdabad Gohna, Jamin Baramadpur, Uttar Pradesh 276403",
+    mapSearch: "Sarva Family Mart, Mohamdabad Gohna, Jamin Baramadpur, Uttar Pradesh 276403",
   },
 
   // ---------- Footer (bottom of the page) ----------
