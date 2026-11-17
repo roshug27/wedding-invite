@@ -48,28 +48,29 @@ export const wedding = {
 
   // ---------- Events timeline ----------
   // Add or remove events by copying or deleting a whole { ... } block.
+  // The "time" line can hold a date instead, for example "November 30, 2026".
   events: [
     {
       name: "Engagement Ceremony",
-      date: "24/11/2026",
+      time: "November 24, 2026",
       description: "",
       image: "/images/Engagement.png",
     },
     {
       name: "Haldi",
-      date: "30/11/2026",
+      time: "November 30, 2026",
       description: "",
       image: "/images/Haldi.png",
     },
     {
       name: "Mehendi",
-      date: "1/12/2026",
+      time: "December 1, 2026",
       description: "",
       image: "/images/Mehendi.png",
     },
     {
       name: "Wedding",
-      date: "2/12/2026",
+      time: "December 2, 2026",
       description: "",
       image: "/images/Wedding.png",
     },
@@ -111,7 +112,7 @@ export const wedding = {
     addressLine2: "Mau (U.P.)",
     // What to search on Google Maps to find the venue.
     // Tip: copy the exact venue name and city from Google Maps.
-    mapSearch: "Sarva Utsav Lawn, Mohamdabad, Mau",
+    mapSearch: "Sarva Utsav Lawn, Mohamdabad Gohna, Jamin Baramadpur, Uttar Pradesh 276403",
   },
 
   // ---------- Footer (bottom of the page) ----------
