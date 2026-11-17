@@ -18,23 +18,24 @@
 export const wedding = {
   // ---------- The couple ----------
   couple: {
-    partner1: "Aarav",
-    partner2: "Diya",
+    partner1: "Ashish",
+    partner2: "Nidhi",
   },
 
   // ---------- Date ----------
   // Short date shown on the big welcome screen and in the footer.
-  date: "December 12, 2026",
+  date: "December 2, 2026",
   // Full date shown above the timeline.
-  dateWithDay: "Saturday, December 12, 2026",
+  dateWithDay: "Wednesday, December 2, 2026",
 
   // ---------- Welcome screen (top of the page) ----------
   hero: {
     // A small blessing or greeting shown above your names. Use "" to hide it.
-    blessing: "Shree Ganeshaya Namah",
+    blessing:
+      "Ishwar kare aapka vivahik jeevan mazboot, aanandmay aur dheron khushiyon se paripurna ho.",
     // A short quote shown below the date. Use "" to hide it.
     quote:
-      "As our love has brought a new meaning to our life, so will our marriage bring a new meaning to love",
+      "आपको भगवान शिव और पार्वती माँ के मार्गदर्शन से प्राप्त, शक्ति, सद्भाव और शाश्वत प्रेम से भरपूर विवाह की शुभकामनाएँ।",
     // Background video (MP4, under 5 MB is best). Use "" to show the image below instead.
     video: "",
     // Background image, used when there is no video.
@@ -49,22 +50,28 @@ export const wedding = {
   // Add or remove events by copying or deleting a whole { ... } block.
   events: [
     {
-      name: "Baraat",
-      time: "9:30 AM",
-      description: "The groom arrives with family and friends",
-      image: "/images/event-1.svg",
+      name: "Engagement Ceremony",
+      time: "",
+      description: "",
+      image: "/images/Engagement.png",
     },
     {
-      name: "Wedding Ceremony",
-      time: "12:30 PM",
-      description: "The sacred ceremony of joining hands",
-      image: "/images/event-2.svg",
+      name: "Haldi",
+      time: "",
+      description: "",
+      image: "/images/Haldi.png",
     },
     {
-      name: "Lunch",
-      time: "1:00 PM Onwards",
-      description: "A celebratory feast for all our guests",
-      image: "/images/event-3.svg",
+      name: "Mehendi",
+      time: "",
+      description: "",
+      image: "/images/Mehendi.png",
+    },
+    {
+      name: "Wedding",
+      time: "",
+      description: "",
+      image: "/images/Wedding.png",
     },
   ],
 
@@ -74,16 +81,16 @@ export const wedding = {
     // Add or remove family cards the same way as events.
     groups: [
       {
-        title: "Groom's Parents",
-        names: "Mrs. Kavita & Mr. Suresh Sharma",
+        title: "Groom's Family",
+        names: "Durgesh Gupta and Family",
         message: "request the pleasure of your company",
         // Optional extra line inside the card, such as siblings. Use "" for both to hide it.
-        extraTitle: "Groom's Brother",
-        extraNames: "Kabir Sharma",
+        extraTitle: "",
+        extraNames: "",
       },
       {
-        title: "Bride's Parents",
-        names: "Mrs. Anjali & Mr. Rakesh Mehta",
+        title: "Bride's Family",
+        names: "Gyanchand Gupta and Family",
         message: "bless this sacred union",
         extraTitle: "",
         extraNames: "",
@@ -92,25 +99,25 @@ export const wedding = {
     // Optional tribute to elders, with a photo. Set "names" to [] to hide this box.
     elders: {
       heading: "With eternal blessings from",
-      names: ["Late Shri Mohan Sharma", "Late Smt. Leela Sharma"],
-      photo: "/images/elders.svg",
+      names: [],
+      photo: "",
     },
   },
 
   // ---------- Venue ----------
   venue: {
-    name: "The Grand Celebration Hall",
-    addressLine1: "Hall No. 2, Ground Floor",
-    addressLine2: "Connaught Place, New Delhi",
+    name: "Sarva Utsav Lawn",
+    addressLine1: "Mohamdabad",
+    addressLine2: "Mau (U.P.)",
     // What to search on Google Maps to find the venue.
     // Tip: copy the exact venue name and city from Google Maps.
-    mapSearch: "Connaught Place, New Delhi",
+    mapSearch: "Sarva Utsav Lawn, Mohamdabad, Mau",
   },
 
   // ---------- Footer (bottom of the page) ----------
   footer: {
     // Short line under the address. Use "" to hide it.
-    blessingLine: "Om Shree Ganeshaya Namah",
+    blessingLine: "",
   },
 
   // ---------- Background music ----------
@@ -120,16 +127,16 @@ export const wedding = {
     // Volume from 0 (silent) to 1 (full).
     volume: 0.3,
     // Android phones block music until the guest taps. This welcome box asks them to tap.
-    welcomeTitle: "Welcome to Aarav & Diya's Wedding",
+    welcomeTitle: "Welcome to Ashish & Nidhi's Wedding",
     welcomeMessage: "Step into our world of love, laughter, and forever.",
     welcomeButton: "Enter the Celebration",
   },
 
   // ---------- Link preview (WhatsApp, iMessage, social media) ----------
   share: {
-    title: "Aarav & Diya | Wedding Celebration",
+    title: "Ashish & Nidhi | Wedding Celebration",
     description:
-      "Join us in celebrating the wedding of Aarav & Diya on December 12, 2026 in New Delhi.",
+      "Join us in celebrating the wedding of Ashish & Nidhi on December 2, 2026 in Mau, Uttar Pradesh.",
     // Image shown in the link preview. A 1200 x 630 JPG works best.
     image: "/images/share-preview.jpg",
   },
