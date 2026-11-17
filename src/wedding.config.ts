@@ -51,25 +51,25 @@ export const wedding = {
   events: [
     {
       name: "Engagement Ceremony",
-      time: "",
+      date: "24/11/2026",
       description: "",
       image: "/images/Engagement.png",
     },
     {
       name: "Haldi",
-      time: "",
+      date: "30/11/2026",
       description: "",
       image: "/images/Haldi.png",
     },
     {
       name: "Mehendi",
-      time: "",
+      date: "1/12/2026",
       description: "",
       image: "/images/Mehendi.png",
     },
     {
       name: "Wedding",
-      time: "",
+      date: "2/12/2026",
       description: "",
       image: "/images/Wedding.png",
     },
